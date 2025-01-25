@@ -1,0 +1,5 @@
+fastapi
+uvicorn
+mysql-connector-python  # Use psycopg2 for PostgreSQL
+transformers  # For Hugging Face model
+langgraph
