@@ -7,6 +7,30 @@ This is a chatbot application that allows users to query a product and supplier 
 
 ## Tech Stack
 
+## folder Strucher
+/chatbot-project
+  /backend
+    /app
+      app.py
+      requirements.txt
+      database.py
+    /models
+      lang_model.py
+  /frontend
+    /src
+      /components
+        Chatbot.js
+      /redux
+        actions.js
+        reducers.js
+        store.js
+      App.js
+      index.js
+      package.json
+  .gitignore
+  README.md
+
+
 ### Backend
 - **Python** (FastAPI)
 - **LangGraph** (For agent workflows)
